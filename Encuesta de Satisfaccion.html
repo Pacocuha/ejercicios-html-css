@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<head>
+     <title>Encuesta de Satisfaccion</title>
+
+     <style>
+            table {
+                border-collapse: collapse;
+            }
+
+            table, th, td {
+                border: 1px solid black;
+                padding: 8px;
+                text-align: center;
+            }
+
+            th {
+            background-color: lightblue; 
+            }
+
+            tr:nth-child(even) {
+            background-color: #eeeeee;
+            }
+
+            .nota1 {
+            background-color: red;
+            color: white;
+            }
+
+            .nota2 {
+            background-color: orange;
+            }
+
+            .nota3 {
+            background-color: yellow;
+            }
+
+            .nota4 {
+            background-color: lightgreen;
+            }
+
+            .nota5 {
+            background-color: green;
+            color: white;
+            }
+
+     </style>
+</head>
+     
+<body>
+     <h1>Encuesta de Satisfacción</h1>
+
+     <form>
+          <label for="nombre">Nombre del Cliente</label>
+          <input type="text" id="nombre" name="nombre">
+          <br><br>
+
+          <label for="servicio">Servicio utilizado</label>
+          <input type="text" id="servicio" name="servicio">
+          <br><br>
+
+          <label for="valoracion">Valoración General del 1 al 5</label>
+          <select id="valoracion" name="valoracion">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          </select>
+          <br><br>
+
+          <label for="aspectos">Aspectos que más le han gustado</label>
+          <br><br>
+
+          <label for="atencion">Atención</label>
+          <input type="checkbox" id="atencion" name="aspectos" value="atencion">
+          <br>
+
+          <label for="rapidez">Rapidez</label>
+          <input type="checkbox" id="rapidez" name="aspectos" value="rapidez">
+          <br>
+
+          <label for="precio">Precio</label>
+          <input type="checkbox" id="precio" name="aspectos" value="precio">
+          <br>
+
+          <label for="calidad">Calidad</label>
+          <input type="checkbox" id="calidad" name="aspectos" value="calidad">
+          <br><br>
+
+          <label for="recomendar">¿Recomendaría el servicio?</label>
+          <br><br>
+
+          <label for="si">Si</label>
+          <input type="radio" id="si" name="recomendar" value="si" required>
+
+          <label for="no">No</label>
+          <input type="radio" id="no" name="recomendar" value="no">
+          <br><br>
+
+          <label for="comentario">Comentarios</label>
+          <br>
+          <textarea id="comentario" name="comentario" rows="4" cols="40"></textarea>
+          <br><br>       
+
+     </form>
+           <h2>RESULTADO DE LA ENCUESTA</h2>
+
+     <table>
+           <tr>
+              <th>Cliente</th>
+              <th>Servicio</th>
+              <th>Valoración</th>
+              <th>Recomienda</th>
+              <th>Comentarios</th>
+            </tr>
+
+            <tr>
+               <td>Ana</td>
+               <td>Reparación</td>
+               <td class="nota5">5</td>
+               <td>Si</td>
+               <td>Muy buen Servicio</td>
+            </tr>
+
+            <tr>
+               <td>Pedro</td>
+               <td>Instalación</td>
+               <td class="nota4">4</td>
+               <td>Si</td>
+               <td>Rápido y eficaz</td>
+            </tr>
+
+              <tr>
+               <td>Lucia</td>
+               <td>Reparación</td>
+               <td class="nota3">3</td>
+               <td>No</td>
+               <td>Tardaron demasiado</td>
+            </tr>
+
+            <tr>
+               <td>Carlos</td>
+               <td>Reparación</td>
+              <td class="nota5">5</td>
+               <td>Si</td>
+               <td>Tardaron demasiado</td>
+            </tr>
+
+             <tr>
+               <td>Elena</td>
+               <td>Instalación</td>   	
+               <td class="nota2">2</td>
+               <td>No</td>
+               <td>Precio elevado</td>
+            </tr>
+            
+     </table>
+     <br><br>
+
+     <h2>RESUMEN DE VALORACIONES</h2>
+
+    <table>
+        <tr>
+            <th>Valoración</th>
+            <th>Número de clientes</th>
+        </tr>
+
+        <tr>
+            <td class="nota1">1</td>
+            <td>0</td>
+        </tr>
+
+        <tr>
+            <td class="nota2">2</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td class="nota3">3</td>
+            <td>2</td>
+        </tr>
+
+        <tr>
+            <td class="nota4">4</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td class="nota5">5</td>
+            <td>1</td>
+        </tr>
+    </table>
+
+</body>
+</html>
