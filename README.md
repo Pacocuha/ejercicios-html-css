@@ -7,11 +7,13 @@ Este repositorio contiene los ejercicios y actividades que he realizado en la as
 - Ejercicio 1 Catálogo de productos.
 - Ejercicio 2 Mi animal favorito.
 - Ejercicio 3 Mi primera página.
-- Ejercicio 4 Presentación personal.
-- Ejercicio 5 Horario de clase.
-- Listado de alumnos.
-- Mi top 5.
-- Mis favoritos.
+- Ejercicio 4 Mis enlaces.
+- Ejercicio 5 Presentación personal.
+- Ejercicio 6 Horario de clase.
+- Ejercicio 7 Listado de alumnos.
+- Ejercicio 8 Mi top 5.
+- Ejercicio 9 Mis favoritos.
+ 
 
 ## Datos personales
 - Nombre: framesc062
