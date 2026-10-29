@@ -1,9 +1,10 @@
-# Mi repositorio de Lenguaje de Marcas
+# Mi repositorio de ejercicios
+¡Hola! Soy Francisco E. y estudio el curso 2ºSRM.
 
 ## Descripción
-Este repositorio contiene los ejercicios y actividades que he realizado en la asignatura de Aplicaciones Web.
+Este repositorio contiene los ejercicios y prácticas que he realizado durante el curso, con el objetivo de aprender y mejorar mis habilidades de programación y el uso de GitHub.
 
-## Ejercicios realizados
+## Ejercicios subidos
 - Ejercicio 1 Catálogo de productos.
 - Ejercicio 2 Mi animal favorito.
 - Ejercicio 3 Mi primera página.
@@ -14,7 +15,11 @@ Este repositorio contiene los ejercicios y actividades que he realizado en la as
 - Ejercicio 8 Mi top 5.
 - Ejercicio 9 Mis favoritos.
  
-
 ## Datos personales
 - Nombre: framesc062
 - Curso: 2.º de SMR
+
+## Autor
+
+- Nombre: Francisco E.
+- Curso: 2ºSMR.
